@@ -2,14 +2,51 @@
 <html>
 <head>
 	<title>Hello Coursera</title>
+	<meta charset="utf-8"> 
 </head>
 <body>
-<h1> Hello coursera. i am struggling in life. <h1>
+<h1> Hello coursera. i am struggling in life. </h1>
 <h2> yoz</h2>
-<p> Git command order: check git status -> 
-	git add: choose "." if everything is to be committed, else specify the exact file, for e.g. "site/index.html" ->
+<p> VSC hack (?): When writing a new html file, type 'html' 
+	then press 'tab' to bring up the default html template. 
+</p>
+
+<h3>Git command order </h3>
+<p> Check git status -> 
+	git add: choose "." if everything is to be committed, 
+	else specify the exact file, for e.g. "site/index.html" ->
 	git commit -m "msg" -> git push </p> 
-	
-<p> browser-sync command to run: browser-sync start --server  --directory --files "*"</p>
+
+<h3>browser-sync command to run </h3>
+<p>browser-sync start --server  --directory --files "*" </p>
+
+<h3> spacing rules</h3>
+<p>No spacing is allowed betweem te diamond brackets and the tag. 
+	Space in between value attributes is allowed and will be ignore by the browser. 
+</p>
+
+<h3>Value Attributes</h3>
+<p> for example: [ p id="myId" ] <br> Value attributes have to be unique else
+	compilation error. <br> Surround values with quotes as a string. <br> 
+	If using several quotes, remember to close the quotations properly. 
+</p>
+
+<h3>Self-closing tag</h3>
+<p> For example: [p/] <br>
+	Basically a shorthand notation for a tag that does not contain content. <br>
+	But these are not allowed in HTML5 and [p][/p] needs to be used instead. 
+</p>
+
+<h3>Structure of a html page</h3>
+<h4>Head tag</h4>
+<p>Contains some metadata about the main content. <br> 
+	Can contain author's description of the page, page title, eternal resources needed to render the page etc. <br>
+	For example set [meta charset = "utf-8"] tells the browser how to interpret the content of the webpage. <br> 
+	The title tag is required to be stated in the head tag. <br> 
+</p>
+<h4>Body Tag</h4>
+<p>Often referred to as a viewport, it is the root of all content visible to user. <br>
+	Content goes inside the body. 
+</p>
 </body>
 </html>
